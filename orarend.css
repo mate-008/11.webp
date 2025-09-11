@@ -1,0 +1,40 @@
+.tablazat
+{
+    width: 70%;
+    background-color: rgb(243, 236, 236);
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 20px 10px 50px  #0983ca;
+    text-align: center;
+}
+td{
+    height: 30px;
+    padding: 15px;
+    text-align: left;
+    box-shadow: 20px 10px 50px rgb(2, 178, 184);
+
+}
+
+table th td{
+    border: 2px solid rgb(18, 128, 192);
+    border-collapse: collapse;
+}
+th{
+    height: 50px;
+    background-color: #041cf766;
+    box-shadow: 20px 10px 50px rgb(9, 151, 194);
+}
+body{
+    color:white;
+    background-color: #0f2bc966;
+}
+tr:hover {background-color: rgb(12, 115, 184);}
+tr:nth-child(even) {
+
+    background-color: #f2f2f2;
+    color:rgb(18, 79, 212);
+}
+p{
+    text-align: center;
+    font-size: 150%;
+}
